@@ -52,6 +52,15 @@ h2 {
     letter-spacing: 1.5px;
 }
 
+h3 {
+    font-size: 1.3rem;
+    color: #a7cdff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
 /* Estilo para os parágrafos */
 p {
     font-size: 1.3rem;
@@ -62,7 +71,7 @@ p {
 
 /* Adicionando um efeito no link */
 a {
-    color: #0e9ba0;
+    color: #d0dd18;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
