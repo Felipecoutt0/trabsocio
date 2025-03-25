@@ -1,0 +1,96 @@
+/* Definindo o estilo geral da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background: linear-gradient(135deg, #ff7b7b, #ff58a3, #f0c674);
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Centralizando o conteúdo e criando um fundo */
+.section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo para títulos principais */
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para subtítulos */
+h2 {
+    font-size: 2rem;
+    color: #ffcc00;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+/* Estilo para os parágrafos */
+p {
+    font-size: 1.2rem;
+    color: #e1e1e1;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Adicionando um efeito no link */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff58a3;
+}
+
+/* Estilo para a imagem */
+img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Adicionando um efeito de fundo no body */
+body {
+    background: linear-gradient(45deg, #af3b41, #2980b9);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+/* Animação de gradiente no fundo */
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
