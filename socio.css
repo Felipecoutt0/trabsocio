@@ -54,15 +54,15 @@ h2 {
 
 /* Estilo para os parágrafos */
 p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #e1e1e1;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     line-height: 1.8;
 }
 
 /* Adicionando um efeito no link */
 a {
-    color: #ffcc00;
+    color: #0e9ba0;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
